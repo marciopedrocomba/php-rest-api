@@ -3,11 +3,11 @@ simple rest APIs with pure PHP code
 
 Try the following endpoints: <br><br>
 
-//GET
+//GET <br>
 GET: domain/Controller/api/read/user.php<br><br>
 
 
-//POST
+//POST <br>
 POST: domain/Controller/api/create/user.php<br>
 {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;name<br>
@@ -15,7 +15,7 @@ POST: domain/Controller/api/create/user.php<br>
 &nbsp;&nbsp;&nbsp;&nbsp;password<br>
 }<br><br>
 
-//PUT / PATCH
+//PUT / PATCH <br>
 PUT/PATCH: domain/Controller/api/update/user.php?id=1<br>
 {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;name<br>
@@ -23,5 +23,5 @@ PUT/PATCH: domain/Controller/api/update/user.php?id=1<br>
 &nbsp;&nbsp;&nbsp;&nbsp;password<br>
 }<br><br>
 
-//DELETE
+//DELETE <br>
 DELETE: domain/Controller/api/delete/user.php?id=1<br>
